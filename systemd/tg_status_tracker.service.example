@@ -6,7 +6,7 @@ After=network.target
 Type=simple
 User=YOUR_USERNAME
 WorkingDirectory=/path/to/telegram-status-tracker
-ExecStart=/path/to/venv/bin/python /path/to/telegram-status-tracker/bot.py
+ExecStart=/path/to/venv/bin/python /path/to/telegram-status-tracker/telegram-status-tracker.py.py
 Restart=always
 RestartSec=10
 

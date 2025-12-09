@@ -1,0 +1,15 @@
+# config.py.example
+# Переименуйте этот файл в config.py и заполните своими данными
+
+# Telegram API (получите на https://my.telegram.org)
+API_ID = 123456  # Вставьте ваш API ID (число)
+API_HASH = 'ваш_api_hash_тут'  # Вставьте ваш API Hash (строка)
+
+# ID пользователя, за которым следим
+TARGET_USER_ID = 285616619
+
+# Куда отправлять уведомления ('me' - Saved Messages, или ID чата)
+NOTIFICATION_CHAT = 'me'
+
+# Имя файла сессии (будет создан в папке со скриптом)
+SESSION_FILE = 'tg_status_bot.session'

@@ -1,0 +1,21 @@
+# Конфиденциальные данные и ключи
+config.py
+*.session
+*.session-journal
+*.sqlite
+*.sqlite-journal
+session/
+
+# Кэш Python и виртуальное окружение
+__pycache__/
+*.py[cod]
+*$py.class
+venv/
+env/
+
+# Системные и служебные файлы
+.idea/
+.vscode/
+*.log
+*.pid
+*.service
